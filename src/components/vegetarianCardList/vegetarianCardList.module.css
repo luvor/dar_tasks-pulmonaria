@@ -1,0 +1,30 @@
+.wrapper {
+  margin: 2rem 4rem;
+}
+.cardList {
+  /* display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start; */
+  column-count: 3;
+  column-gap: 30px;
+}
+.cardListHeader {
+  margin: 2rem;
+  text-align: center;
+}
+.textHighlight {
+  color: #f24a72;
+}
+
+@media screen and (max-width: 768px) {
+  .cardList {
+    column-count: 2;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cardList {
+    column-count: 1;
+    column-gap: 0;
+  }
+}
